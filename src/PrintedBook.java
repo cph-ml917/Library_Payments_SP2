@@ -9,7 +9,7 @@ public class PrintedBook extends Title{
     //Calculate the points:
     @Override
     protected double calculatePoints() {
-        return pages * calculateLiteraturePoints() * super.copies;
+        return this.pages*this.calculateLiteraturePoints() * this.copies;
     }
 
     //Calculate the points for the different categories (literatureType)
